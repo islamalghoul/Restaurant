@@ -51,7 +51,7 @@ function useData() {
     let revers = localStorage.getItem("obj");
     arrayOfLocal = JSON.parse(revers)
 
-    /*
+
     if (arrayOfLocal == null)
     arrayOfLocal=[0]
     else   
@@ -67,7 +67,7 @@ function useData() {
 
         }
     }
-    */
+    
       
 }
 useData()
