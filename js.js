@@ -1,4 +1,4 @@
-let arr = [];
+ arr = [];
 let counter = 1000
 function id() {
     counter++
@@ -10,7 +10,7 @@ function foodTable(foodId, foodName, type, price) {
     this.type = type
     this.price = price
     arr.push(this)
-    
+}
 
 // foodTable.prototype.table = function () {
 //     let table = document.getElementById("table")
@@ -59,6 +59,7 @@ function newLest(e) {
 
 
 
+  
 
 }
 
